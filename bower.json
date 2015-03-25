@@ -3,7 +3,8 @@
   "private": "true",
   "dependencies": {
     "jquery": "1.8",
-    "normalize.css": "~3.0.2"
+    "normalize.css": "~3.0.2",
+    "tooltipster": "~3.3.0"
   },
   "devDependencies": {}
 }

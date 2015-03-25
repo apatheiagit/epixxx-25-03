@@ -3,13 +3,21 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Document</title>
-	<link rel="stylesheet" href="bower_components/normalize.css/normalize.css">
+	<!-- build:css styles/vendor.css -->
+	<!-- bower:css -->
+	<link rel="stylesheet" href="bower_components/normalize.css/normalize.css" />
+	<link rel="stylesheet" href="bower_components/tooltipster/css/tooltipster.css" />
+	<!-- endbower -->
+	<!-- endbuild -->
+	
+	<!-- build:css styles/style.css -->
 	<link rel="stylesheet" href="css/main.css">
 	<link rel="stylesheet" href="css/buttons.css">
+	<!-- endbuild -->
 
 </head>
 <body>
-	<h1>Моё небольшое приложение</h1>
+	<h1>Моё небольшое приложение!!</h1>
 	<p>Введите email в инпут!</p>
 	<div class="form-wrap">
 		<form class="form" action="mail.php">
@@ -18,8 +26,17 @@
 			<button class="btn btn-blue" type="submit">Отправить</button>
 		</form>
 	</div>
+
+	<!-- build:js scripts/vendor.js -->
+	<!-- bower:js -->
 	<script src="bower_components/jquery/jquery.js"></script>
+	<script src="bower_components/tooltipster/js/jquery.tooltipster.min.js"></script>
+	<!-- endbower -->
+	<!-- endbuild -->
+
+	<!-- build:js scripts/main.js -->
 	<script src="js/plugins.js"></script>
 	<script src="js/main.js"></script>
+	<!-- endbuild -->
 </body>
 </html>
